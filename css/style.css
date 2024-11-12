@@ -1,0 +1,113 @@
+/*Fotmatação Geral*/
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+a {
+    color: white;
+    text-decoration: none ;
+}
+
+/*Formatação Topo*/
+
+header {
+    background-color: #3B8686;
+    padding: 45px 10vw 30px 10vw; 
+} 
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 6vw 0 0;
+}
+header nav ul li:last-child {
+   margin-right: 0; 
+}
+header nav a.atual {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px 5px 15px;
+    border-radius: 17px;
+}
+header nav .atual:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/*Formatação Banner*/
+
+section.banner {
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../images/back-banner.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    padding: 30vw 10vw 3vw 10vw;
+}
+section.banner h2 {
+    color: white;
+    font-size: 3rem;
+    width: 30%;
+    background-color: rgba(59, 134, 134, 0.5);
+}
+
+/*Formatação Conteúdo*/
+
+section.etapas {
+    margin: 6vw 6vw 6vw 6vw;
+    text-align: center;
+}
+section.etapas p {
+    margin: 0 0 2vw 0;
+}
+section.etapas h3 {
+    margin: 2vw 0 1.5vw 0;
+}
+section.etapas ul {
+    display: flex;
+}
+section.etapas ul li {
+    margin: 0 4vw 0 0;
+}
+section.etapas ul li span {
+    color: #3B8686;
+}
+section.etapas a {
+    background-color: #3B8686;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    margin: 1.5vw 0 1.5vw 0;
+}
+section.etapas span {
+    font-size: 4.5rem;
+}
+section.banner-numeros {
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../images/back-numeros.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    padding: 2vw 10vw 3vw 10vw;
+}
+section.banner-numeros span {
+    color: white;
+    font-size: 3.5rem;
+}
+section.banner-numeros ul {
+    display: flex;
+    justify-content: space-around;
+}
+section.banner-numeros p {
+    color: white;
+    margin: 1vw 0 0 0 ;
+    font-size: 2rem;
+}
+section.possibilidades h2 {
+    color: #0B486B;
+}
+section.possibilidades nav ul li span {
+    background-color: #0B486B;
+}
+section.possibilidades {
+    display: flex;
+    margin: 0 2vw 0 0;
+}
+section.possibilidades span {
+    background-color: #0B486B;
+}
